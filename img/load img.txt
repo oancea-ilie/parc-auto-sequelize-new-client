@@ -1,0 +1,1 @@
+(load_file('C:/Users/LIE/Desktop/MEDITATII_WEB/10.Baze_de_date/Parc-auto-mockup/img/bmw.jpg'))

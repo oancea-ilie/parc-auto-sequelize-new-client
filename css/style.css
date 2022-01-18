@@ -1,0 +1,1337 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #fcde67;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+}
+@media (min-width: 425px) {
+  header {
+    height: 5rem;
+  }
+  header .brand {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    height: 5rem;
+  }
+  header .brand {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    height: 6rem;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+footer {
+  height: 4rem;
+  background-color: #fcde67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+}
+footer p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #5bccf6;
+  transition: 0.3s all;
+}
+footer p a:hover {
+  color: #3fa4c8;
+}
+@media (min-width: 425px) {
+  footer {
+    height: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  footer {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    height: 6rem;
+    font-size: 1.3rem;
+  }
+}
+
+.all-cards {
+  margin-top: 1rem;
+  width: 90%;
+  margin: 1rem auto 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+.header-container .brand {
+  color: #030e12;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+.header-container .brand:hover {
+  color: #3fa4c8;
+}
+@media (min-width: 1024px) {
+  .header-container {
+    width: 90%;
+    max-width: 1100px;
+  }
+}
+
+.card {
+  background-color: #fcde67;
+  border-radius: 5px;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 370px;
+  transition: 0.4s all;
+  box-shadow: 5px 4px 29px -4px rgba(0, 0, 0, 0.75);
+}
+.card .car-info {
+  display: none;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #0ec50e;
+}
+.card p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.7rem;
+}
+.card p span {
+  color: red;
+}
+.card img {
+  border-radius: 5px 5px 50px 50px;
+  width: 100%;
+  max-width: 370px;
+}
+.card .marca {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.card .marca img {
+  width: 23px;
+}
+.card .marca span {
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+}
+.card .an {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.card .an img {
+  width: 23px;
+}
+.card .an span {
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+}
+.card .pret {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.card .pret img {
+  width: 23px;
+}
+.card .pret span {
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+}
+.card .model {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.card .model img {
+  width: 23px;
+}
+.card .model span {
+  margin-top: 0.1rem;
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+}
+.card .perioada-inchiriere {
+  margin: 0.5rem 0;
+  margin-top: 1rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  transition: 0.2s all;
+}
+.card .perioada-inchiriere:focus {
+  outline: none;
+}
+.card .card-btns {
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .card-btns .descriere-btn {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #030e12;
+  padding: 0.4rem 1.6rem;
+  border-radius: 5px;
+  transition: 0.3s all;
+}
+.card .card-btns .descriere-btn:hover {
+  background-color: #6b6b6b;
+}
+.card .card-btns .inchiriere-btn {
+  transition: 0.3s all;
+  text-decoration: none;
+  color: white;
+  background-color: #5bccf6;
+  padding: 0.4rem 1.6rem;
+  border-radius: 5px;
+}
+.card .card-btns .inchiriere-btn:hover {
+  background-color: #3fa4c8;
+}
+@media (min-width: 425px) {
+  .card .marca img {
+    width: 30px;
+  }
+  .card .marca span {
+    font-size: 1.3rem;
+  }
+  .card .an img {
+    width: 30px;
+  }
+  .card .an span {
+    font-size: 1.3rem;
+  }
+  .card .pret img {
+    width: 30px;
+  }
+  .card .pret span {
+    font-size: 1.3rem;
+  }
+  .card .model img {
+    width: 30px;
+  }
+  .card .model span {
+    font-size: 1.3rem;
+  }
+  .card .perioada-inchiriere {
+    font-size: 1.1rem;
+  }
+  .card .card-btns {
+    margin-bottom: 1.5rem;
+  }
+  .card .card-btns .descriere-btn {
+    padding: 0.5rem 2rem;
+  }
+  .card .card-btns .inchiriere-btn {
+    padding: 0.5rem 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    margin: 0;
+    max-width: 450px;
+  }
+  .card .marca img {
+    width: 30px;
+  }
+  .card .marca span {
+    font-size: 1.3rem;
+  }
+  .card .model img {
+    width: 30px;
+  }
+  .card .model span {
+    font-size: 1.3rem;
+  }
+  .card .an img {
+    width: 30px;
+  }
+  .card .an span {
+    font-size: 1.3rem;
+  }
+  .card .pret img {
+    width: 30px;
+  }
+  .card .pret span {
+    font-size: 1.3rem;
+  }
+  .card .perioada-inchiriere {
+    font-size: 1.1rem;
+  }
+  .card .card-btns {
+    margin-bottom: 1.5rem;
+  }
+  .card .card-btns .descriere-btn {
+    padding: 0.5rem 2rem;
+  }
+  .card .card-btns .inchiriere-btn {
+    padding: 0.5rem 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .card .car-info {
+    font-size: 1.4rem;
+  }
+  .card p {
+    font-size: 1.4rem;
+  }
+  .card .marca img {
+    width: 35px;
+  }
+  .card .marca span {
+    font-size: 1.4rem;
+  }
+  .card .model img {
+    width: 35px;
+  }
+  .card .model span {
+    font-size: 1.4rem;
+  }
+  .card .an img {
+    width: 35px;
+  }
+  .card .an span {
+    font-size: 1.4rem;
+  }
+  .card .pret img {
+    width: 35px;
+  }
+  .card .pret span {
+    font-size: 1.4rem;
+  }
+  .card .perioada-inchiriere {
+    font-size: 1.2rem;
+  }
+  .card .card-btns {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .card .card-btns .descriere-btn {
+    padding: 0.6rem 2rem;
+    font-size: 1.2rem;
+  }
+  .card .card-btns .inchiriere-btn {
+    padding: 0.6rem 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+.card:hover {
+  background-color: #5bccf6;
+}
+.card:hover .car-info {
+  color: white;
+}
+.card:hover .card-btns .inchiriere-btn {
+  background-color: #fcde67;
+}
+.card:hover .card-btns .inchiriere-btn:hover {
+  background-color: #ceb44c;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+@media (min-width: 425px) {
+  .cards-container {
+    margin: 1rem auto;
+  }
+}
+@media (min-width: 768px) {
+  .cards-container {
+    margin: 0 auto;
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+  }
+}
+@media (min-width: 1024px) {
+  .cards-container {
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 1100px;
+  }
+}
+
+.inchirieri {
+  width: 90%;
+  margin: 1rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inchirieri h1 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.inchirieri table {
+  background-color: #5bccf6;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.8rem;
+  width: 100%;
+}
+.inchirieri table tr {
+  text-align: center;
+}
+.inchirieri table th {
+  padding: 0.5rem;
+  border-bottom: 1px solid white;
+}
+.inchirieri table td {
+  padding: 0.7rem 0.2rem;
+}
+@media (min-width: 425px) {
+  .inchirieri {
+    max-width: 500px;
+  }
+  .inchirieri h1 {
+    font-size: 1.7rem;
+  }
+  .inchirieri table {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 768px) {
+  .inchirieri {
+    max-width: 700px;
+  }
+  .inchirieri h1 {
+    font-size: 1.9rem;
+  }
+  .inchirieri table {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .inchirieri {
+    max-width: 900px;
+  }
+  .inchirieri h1 {
+    font-size: 1.9rem;
+  }
+  .inchirieri table {
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+  }
+  .inchirieri table th {
+    padding: 1rem;
+  }
+}
+
+nav .conectare {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: #5bccf6;
+  border-radius: 4px;
+  color: white;
+  transition: 0.3s all;
+}
+nav .conectare:hover {
+  background-color: #3fa4c8;
+}
+nav .fa-user {
+  color: #5bccf6;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  transition: 0.2s all;
+}
+nav .fa-sign-out-alt {
+  color: #5bccf6;
+  transition: 0.2s all;
+  font-size: 1.5rem;
+}
+nav .fa-user:hover {
+  color: #3fa4c8;
+}
+nav .fa-sign-out-alt:hover {
+  color: #3fa4c8;
+}
+@media (min-width: 425px) {
+  nav .conectare {
+    font-size: 1.2rem;
+  }
+  nav .fa-user {
+    font-size: 1.7rem;
+  }
+  nav .fa-sign-out-alt {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 768px) {
+  nav .conectare {
+    font-size: 1.3rem;
+  }
+  nav .fa-user {
+    font-size: 1.8rem;
+  }
+  nav .fa-sign-out-alt {
+    font-size: 1.8rem;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+.pagination a {
+  margin-right: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.7rem;
+  background-color: #5bccf6;
+  border-radius: 50%;
+  color: white;
+  transition: 0.2s all;
+}
+.pagination a:last-of-type {
+  margin: 0;
+}
+.pagination a:hover {
+  background-color: #3fa4c8;
+}
+@media (min-width: 768px) {
+  .pagination a {
+    padding: 0.4rem 0.8rem;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .pagination {
+    margin-bottom: 2rem;
+  }
+  .pagination a {
+    padding: 0.4rem 0.8rem;
+    font-size: 1.4rem;
+  }
+}
+
+.title {
+  margin: 1rem auto 0 auto;
+}
+.title h1 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.title select {
+  border: none;
+  background-color: #5bccf6;
+  border-radius: 4px;
+  padding: 0.2rem 0.6rem;
+  margin-left: auto;
+  display: block;
+  transition: 0.2s all;
+  font-size: 1rem;
+}
+.title select:focus {
+  outline: none;
+}
+.title select:hover {
+  background-color: #fcde67;
+}
+@media (min-width: 425px) {
+  .title {
+    max-width: 370px;
+  }
+  .title h1 {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+  .title select {
+    padding: 0.3rem 0.6rem;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    max-width: 700px;
+  }
+  .title h1 {
+    margin-top: 2rem;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+  }
+  .title select {
+    font-size: 1.2rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+@media (min-width: 1024px) {
+  .title {
+    max-width: 1100px;
+  }
+  .title select {
+    font-size: 1.3rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+.login-header {
+  background-color: #fcde67;
+  padding: 1.2rem;
+  border-radius: 0 0 30px 30px;
+}
+.login-header h1 {
+  margin: 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .login-header {
+    padding: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .login-header {
+    padding: 1.7rem;
+  }
+  .login-header h1 {
+    font-size: 2.3rem;
+  }
+}
+
+.login-container {
+  margin: 0 1rem;
+  margin-top: 2rem;
+  background-color: #fdfdfd;
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 4px 29px -4px rgba(148, 148, 148, 0.75);
+}
+.login-container .login-eror {
+  color: red;
+  margin-bottom: 1rem;
+}
+.login-container p {
+  text-align: center;
+  color: #5bccf6;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.login-container input {
+  width: 90%;
+  max-width: 260px;
+  border-radius: 10px;
+  padding: 0.2rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  border: 1px solid #fcde67;
+  transition: 0.1s all;
+  color: #6b6b6b;
+  background-color: white;
+}
+.login-container input:focus {
+  outline: none;
+  border: 2px solid #fcde67;
+}
+.login-container .login-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 260px;
+  margin-top: 1rem;
+}
+.login-container .login-btns a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #fcde67;
+  padding: 0.4rem 1.4rem;
+  border-radius: 10px;
+  transition: 0.3s all;
+}
+.login-container .login-btns a:hover {
+  background-color: #ceb44c;
+}
+.login-container .login-btns .sign-btn {
+  background-color: #5bccf6;
+}
+.login-container .login-btns .sign-btn:hover {
+  background-color: #3fa4c8;
+}
+@media (min-width: 425px) {
+  .login-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .login-container .login-btns {
+    justify-content: space-between;
+    max-width: 260px;
+  }
+}
+@media (min-width: 768px) {
+  .login-container {
+    margin-top: 3rem;
+  }
+  .login-container p {
+    font-size: 1.3rem;
+  }
+  .login-container input {
+    font-size: 1.3rem;
+  }
+  .login-container .login-btns a {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .login-container p {
+    font-size: 1.4rem;
+  }
+  .login-container input {
+    font-size: 1.4rem;
+  }
+  .login-container .login-btns a {
+    font-size: 1.4rem;
+  }
+}
+
+.date-personale h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #5bccf6;
+  margin-bottom: 1rem;
+}
+@media (min-width: 425px) {
+  .date-personale h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .date-personale h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .date-personale h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.date-personale-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fcde67;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+.date-personale-container h3 {
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.date-personale-container h3 span {
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+.date-personale-container h3 a {
+  text-decoration: none;
+  color: #5bccf6;
+  transition: 0.3s all;
+}
+.date-personale-container h3 a:hover {
+  color: #3fa4c8;
+}
+.date-personale-container input {
+  width: 100%;
+  display: none;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #5bccf6;
+  padding: 0.2rem 1rem;
+  text-align: center;
+  transition: 0.3s all;
+  font-size: 1.1rem;
+}
+.date-personale-container input:hover {
+  border: 2px solid #5bccf6;
+}
+.date-personale-container button {
+  width: 100%;
+  display: none;
+  border: none;
+  background-color: #5bccf6;
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.date-personale-container button:hover {
+  background-color: #3fa4c8;
+}
+.date-personale-container .info {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #12d112;
+}
+@media (min-width: 425px) {
+  .date-personale-container h3 {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 230px;
+    font-size: 1.2rem;
+  }
+  .date-personale-container h3 span {
+    font-size: 1.2rem;
+  }
+  .date-personale-container h3 a {
+    font-size: 1.2rem;
+  }
+  .date-personale-container input {
+    width: 70%;
+    margin: 0.5rem auto;
+    max-width: 230px;
+  }
+  .date-personale-container button {
+    width: 70%;
+    margin: 0.5rem auto;
+    max-width: 230px;
+  }
+}
+@media (min-width: 768px) {
+  .date-personale-container h3 {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 230px;
+    font-size: 1.3rem;
+  }
+  .date-personale-container h3 span {
+    font-size: 1.3rem;
+  }
+  .date-personale-container h3 a {
+    font-size: 1.3rem;
+  }
+  .date-personale-container input {
+    width: 70%;
+    margin: 0.5rem auto;
+    max-width: 230px;
+  }
+  .date-personale-container button {
+    width: 70%;
+    margin: 0.5rem auto;
+    max-width: 230px;
+  }
+}
+@media (min-width: 1024px) {
+  .date-personale-container {
+    height: 325px;
+  }
+  .date-personale-container h3 {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 250px;
+    font-size: 1.4rem;
+  }
+  .date-personale-container h3 span {
+    font-size: 1.4rem;
+  }
+  .date-personale-container h3 a {
+    font-size: 1.4rem;
+  }
+  .date-personale-container input {
+    width: 70%;
+    margin: 0.5rem auto;
+    max-width: 250px;
+    padding: 0.3rem 1rem;
+  }
+  .date-personale-container button {
+    width: 70%;
+    margin: 0.5rem auto;
+    max-width: 250px;
+    padding: 0.4rem 1rem;
+  }
+}
+
+.user-details {
+  display: grid;
+}
+.user-details h1 {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.user-details .user-container {
+  display: grid;
+}
+@media (min-width: 425px) {
+  .user-details h1 {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 768px) {
+  .user-details h1 {
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 1024px) {
+  .user-details .user-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .user-details h1 {
+    font-size: 2rem;
+  }
+}
+
+.istoric-comenzi {
+  margin-bottom: 2rem;
+}
+.istoric-comenzi h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #5bccf6;
+  margin: 1rem 0;
+  margin-top: 1.5rem;
+}
+@media (min-width: 425px) {
+  .istoric-comenzi h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .istoric-comenzi h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .istoric-comenzi {
+    margin-bottom: 0;
+  }
+  .istoric-comenzi h2 {
+    margin-top: 0;
+    font-size: 1.7rem;
+  }
+}
+
+.istoric-comenzi-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #5bccf6;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+.istoric-comenzi-container .istoric-comenzi-container-card {
+  width: 220px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #6b6b6b;
+  color: white;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+.istoric-comenzi-container .istoric-comenzi-container-card p {
+  padding: 0.4rem 0.5rem;
+}
+.istoric-comenzi-container .istoric-comenzi-container-card:last-of-type {
+  margin-bottom: 0;
+}
+@media (min-width: 1024px) {
+  .istoric-comenzi-container {
+    height: 325px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
